@@ -14,6 +14,7 @@ export default function LeftContent() {
         <h1 className="text-5xl font-bold">Welcome</h1>
         <span>We are glad to see you back with us</span>
         <Box sx={{ 
+          backgroundColor: 'rgb(226 232 240)',
           paddingLeft: 2,
           width: '50%',
           display: 'flex', 
@@ -26,6 +27,7 @@ export default function LeftContent() {
           <TextField id="input-with-sx" placeholder="Username" variant="standard" />
         </Box>
         <Box sx={{ 
+          backgroundColor: 'rgb(226 232 240)',
           paddingLeft: 2,
           width: '50%',
           display: 'flex', 
@@ -42,9 +44,9 @@ export default function LeftContent() {
 
         <p><a className='font-bold'href='#'>Login</a> With Others</p>
 
-        <Button variant="outlined" className='w-1/2 h-9 rounded-lg' startIcon={<GoogleIcon />}>
+        <Button variant="outlined" className='w-1/2 h-9 rounded-lg border-slate-400 text-black' startIcon={<GoogleIcon />}>
           Login with <a href='#' className='font-bold'> google</a></Button> 
-        <Button variant="outlined" className='w-1/2 h-9 rounded-lg' startIcon={<FacebookIcon />}>
+        <Button variant="outlined" className='w-1/2 h-9 rounded-lg border-slate-400 text-black' startIcon={<FacebookIcon />}>
           Login with <a href='#' className='font-bold'> facebook</a></Button>
       </div>
     </>
